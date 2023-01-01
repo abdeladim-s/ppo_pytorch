@@ -1,0 +1,4 @@
+numpy~=1.24.0
+torch~=1.13.1
+scipy~=1.9.3
+gymnasium~=0.27.0
