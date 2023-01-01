@@ -3,7 +3,7 @@
 
 """
 A simple implementation of the Proximal Policy Optimization (PPO) algorithm using Pytorch.
-
+Credits to: https://spinningup.openai.com/en/latest/
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -34,14 +34,15 @@ from ppo import Policy
 def main():
 
     env_name = 'CartPole-v0'
+    model_id = 'defaults'
 
-    # train = True
+    # train = True  # for training
     train = False  # for evaluation
     if train:
-        policy = Policy(env_name, render_mode=None)
+        policy = Policy(env_name, model_id=model_id, render_mode=None)
         policy.train()
     else:
-        policy = Policy(env_name, render_mode='human')
+        policy = Policy(env_name, model_id=model_id, render_mode='human')
         policy.evaluate(1)
 
 

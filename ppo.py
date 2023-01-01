@@ -274,8 +274,6 @@ class Agent:
 
 
 class Policy:
-    # TODO: Default params
-    # TODO: Generalize to more than one dim tensor
 
     def __init__(self,
                  env: Union[gym.Env, str, object],
