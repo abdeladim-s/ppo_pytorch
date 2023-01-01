@@ -8,7 +8,7 @@ A simple implementation of the [Proximal Policy Optimization (PPO)](https://arxi
 ## Some features
 * A separate file for hyper-parameters for an easy, practical tuning.
 * You can stop/resume the training process any time as the trained models are saved after every epoch in the `models` directory.
-* [Tensorboard](https://github.com/tensorflow/tensorboard) support: if you have Tensorboard installed You can run it to track the progress of the training in real-time:
+* [Tensorboard](https://github.com/tensorflow/tensorboard) support: if you have Tensorboard installed, you can run it to track the progress of the training in real-time using:
 ```bash
 tensorboard --logdir runs
 ```
