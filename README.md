@@ -90,7 +90,7 @@ def main():
 
 __Note__
 
-* You can test a simple random agent of the environment using the `test_env.py` script.
+* You can test a simple random agent using the `test_env.py` script.
 
 
 ## license
